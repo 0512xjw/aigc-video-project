@@ -1,0 +1,15 @@
+# 忽略前端根目录的node_modules
+node_modules/
+# 忽略gateway子目录的node_modules
+gateway/node_modules/
+# Vite项目通用忽略
+dist/
+build/
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+# 编辑器配置忽略
+.vscode/
+*.swp
+*.swo
