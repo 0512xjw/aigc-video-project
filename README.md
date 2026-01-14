@@ -10,9 +10,9 @@
 ## 演示地址(建议使用本地运行验证)
 - 前端在线地址：[https://aigc-video-project-frontend.vercel.app](https://aigc-video-project-frontend.vercel.app)
 - 后端API地址：[https://aigc-video-project-backend.vercel.app](https://aigc-video-project-backend.vercel.app)
-- 前端页面：http://localhost:5173（启动前端服务后访问）
+- 前端页面：http://localhost:5173（启动前端服务后访问） 
 - 后端API接口：http://127.0.0.1:5001/api/videos（启动后端服务后访问）
-- 网关服务：http://127.0.0.1:8080（启动网关服务后访问）
+- 网关服务：http://127.0.0.1:5002（启动网关服务后访问）
 ## 技术说明
 1. 后端框架：Flask（轻量级Web框架，快速实现RESTful API开发）
 2. Mock数据：使用Faker生成模拟的视频列表、视频详情数据，无需依赖真实数据库
